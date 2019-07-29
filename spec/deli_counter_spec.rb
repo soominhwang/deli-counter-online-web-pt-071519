@@ -43,7 +43,6 @@ describe 'Deli Counter' do
         expect($stdout).to receive(:puts).with("Welcome, Grace. You are number 4 in line.")
         take_a_number(other_deli, "Grace")
         expect(other_deli).to eq(%w(Logan Avi Spencer Grace))
-        puts 'testing'
       end
     end
 
